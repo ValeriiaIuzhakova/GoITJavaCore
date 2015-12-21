@@ -1,7 +1,3 @@
 *.iml
-Unit3/Unit3File/.idea
-Unit3/Unit3File/out
-Unit3/Unit3Flower/.idea
-Unit3/Unit3Flower/out
-Unit3/Unit3MusicalInstrument/.idea
-Unit3/Unit3MusicalInstrument/out
+**/.idea
+**/out
