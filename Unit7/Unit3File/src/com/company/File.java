@@ -4,16 +4,15 @@ import java.awt.*;
 import java.util.Date;
 
 class File {
-    private int size;
-
-    private Date creationDate;
-    private Date openingDate;
-    private Date updateDate;
     private String type;
 
+    protected int size;
     protected Image fileIcon;
     protected String additionalInfo;
     protected String name;
+    protected Date creationDate;
+    protected Date openingDate;
+    protected Date updateDate;
 
     public File(String name) {
         this.name = name;

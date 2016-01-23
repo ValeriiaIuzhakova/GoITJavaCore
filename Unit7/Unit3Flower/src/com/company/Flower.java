@@ -4,14 +4,15 @@ import java.awt.*;
 import java.util.Date;
 
 class Flower {
-    private int lenght;
-    private boolean smell;
+    private String groupPlants;
 
-    private String name;
-    private String shape;
+    protected int lenght;
+    protected boolean smell;
 
     protected Date bloomTime;
     protected Color color;
+    protected String name;
+    protected String shape;
 
     public Flower(String name) {
         this.name = name;

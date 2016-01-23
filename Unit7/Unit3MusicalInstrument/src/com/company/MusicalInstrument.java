@@ -1,13 +1,13 @@
 package com.company;
 
 class MusicalInstrument {
-    private int itemId;
-    private int sound;
-    private int timbre;
+    private boolean sound;
+    private String type;
 
-    private String material;
-    private String name;
-    private String shape;
+    protected int timbre;
+    protected String material;
+    protected String name;
+    protected String shape;
 
     public MusicalInstrument(String name) {
         this.name = name;
