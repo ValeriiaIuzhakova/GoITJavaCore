@@ -1,12 +1,11 @@
 package com.company;
 
 class MusicalInstrument {
-    private boolean sound;
-    private String type;
-
+    protected boolean sound;
     protected int timbre;
     protected String material;
     protected String name;
+    protected String type;
     protected String shape;
 
     public MusicalInstrument(String name) {

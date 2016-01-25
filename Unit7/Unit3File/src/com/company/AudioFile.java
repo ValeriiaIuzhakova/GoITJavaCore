@@ -1,7 +1,6 @@
 package com.company;
 
 class AudioFile extends File {
-    private String audioFileExtension;
 
     public AudioFile(String name) {
         super(name);
@@ -9,6 +8,6 @@ class AudioFile extends File {
 
     public String getExtension() {
         System.out.println("Getting file extension");
-        return this.audioFileExtension;
+        return super.fileExtension;
     }
 }

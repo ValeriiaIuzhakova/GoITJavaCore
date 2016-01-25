@@ -1,7 +1,6 @@
 package com.company;
 
 class ImageFile extends File {
-    private String imageFileExtension;
 
     public ImageFile(String name) {
         super(name);
@@ -9,6 +8,6 @@ class ImageFile extends File {
 
     public String getExtension() {
         System.out.println("Getting file extension");
-        return this.imageFileExtension;
+        return super.fileExtension;
     }
 }

@@ -4,11 +4,11 @@ import java.awt.*;
 import java.util.Date;
 
 class File {
-    private String type;
-
     protected int size;
+
     protected Image fileIcon;
     protected String additionalInfo;
+    protected String fileExtension;
     protected String name;
     protected Date creationDate;
     protected Date openingDate;

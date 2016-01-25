@@ -4,8 +4,6 @@ import java.awt.*;
 import java.util.Date;
 
 class Flower {
-    private String groupPlants;
-
     protected int lenght;
     protected boolean smell;
 

@@ -33,7 +33,7 @@ class Directory {
             e.printStackTrace(new PrintWriter(errors));
             throw new IOException("[Exception] File extension is missing: \n " + errors.toString());
         }
-        System.out.println("File is added " + file.getName());
+        System.out.println("File is added: " + file.getName());
         return true;
     }
 
